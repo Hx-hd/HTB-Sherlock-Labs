@@ -41,7 +41,7 @@ No internal systems were compromised, and no sensitive data was accessed or exfi
 
 ### Email Header Analysis
 
-![](/home/harrison/.var/app/com.github.marktext.marktext/config/marktext/images/2026-01-21-11-43-43-image.png)
+<img width="887" height="515" alt="2026-01-21-11-43-43-image" src="https://github.com/user-attachments/assets/3c175a72-5c15-495d-aa52-8ad2bfca50fe" />
 
 Key findings from the email headers:
 
@@ -57,7 +57,7 @@ Despite passing authentication checks, the email was determined to be malicious 
 
 ### Sender & Reply-To Discrepancy
 
-![](/home/harrison/.var/app/com.github.marktext.marktext/config/marktext/images/2026-01-21-11-45-29-image.png)
+<img width="856" height="517" alt="2026-01-21-11-45-29-image" src="https://github.com/user-attachments/assets/c5078892-4792-41d4-86ff-315e2aef344f" />
 
 - **From Address:** `finance@business-finance.com`  
 - **Reply-To Address:** `support@business-finance.com`  
@@ -72,7 +72,8 @@ This mismatch is a common phishing tactic used to redirect responses to attacker
 
 ### Phishing URL
 
-![](/home/harrison/.var/app/com.github.marktext.marktext/config/marktext/images/2026-01-21-11-49-01-image.png)
+<img width="1017" height="182" alt="2026-01-21-11-49-01-image" src="https://github.com/user-attachments/assets/670093ce-fe40-4153-a78a-2bd77538ef92" />
+
 
 - **Embedded URL Domain:** `secure.business-finance.com`  
 
@@ -84,14 +85,14 @@ The domain was crafted to resemble a legitimate vendor subdomain to increase cre
 
 ### Attachment Analysis
 
-![](/home/harrison/.var/app/com.github.marktext.marktext/config/marktext/images/2026-01-21-11-50-06-image.png)
+<img width="765" height="32" alt="2026-01-21-11-50-06-image" src="https://github.com/user-attachments/assets/5ad49cad-6114-44de-827d-492b8dc95018" />
 
 - **Attachment Name:** `Invoice_2025_Payment.zip`  
 - **SHA-256 Hash:**  8379c41239e9af845b2ab6c27a7509ae8804d7d73e455c800a551b22ba25bb4a
 
 #### ZIP Contents
 
-![](/home/harrison/.var/app/com.github.marktext.marktext/config/marktext/images/2026-01-21-11-51-16-image.png)
+<img width="721" height="451" alt="2026-01-21-11-51-16-image" src="https://github.com/user-attachments/assets/9cc6e82f-23b1-4060-90de-70620961bbec" />
 
 - **Malicious File:** `invoice_document.pdf.bat`
 
