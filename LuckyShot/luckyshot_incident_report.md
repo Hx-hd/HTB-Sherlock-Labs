@@ -4,7 +4,7 @@
 
 - **Incident ID:** LuckyShot-IR-2025-02
   
-- **Incident Severity:** High (P2)
+- **Incident Severity:** High (P1)
   
 - **Incident Status:** Resolved
   
